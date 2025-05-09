@@ -1,0 +1,4 @@
+## 🔐 Data Use Disclaimer
+
+This repository does not include any patient data. It contains SQL scripts written to work with the MIMIC-III database, which is available for credentialed research use through [PhysioNet](https://physionet.org).  
+Users are responsible for securing appropriate access and ensuring data privacy and compliance in accordance with their institutional review board (IRB) or ethics committee.
