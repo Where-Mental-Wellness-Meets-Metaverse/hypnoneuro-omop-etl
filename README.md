@@ -24,8 +24,10 @@ This ETL pipeline:
 
 ---
 
-## 🛠️ How to Use
+## 🚀 How to Use (Google BigQuery)
 
-1. Clone the repo:
+1. Clone this repository locally:
+
    ```bash
-   git clone https://github.com/YOUR-USERNAME/hypnoneuro-omop-etl.git
+   git clone https://github.com/Where-Mental-Wellness-Meets-Metaverse/hypnoneuro-omop-etl.git
+   cd hypnoneuro-omop-etl
