@@ -31,3 +31,22 @@ This ETL pipeline:
    ```bash
    git clone https://github.com/Where-Mental-Wellness-Meets-Metaverse/hypnoneuro-omop-etl.git
    cd hypnoneuro-omop-etl
+
+
+## 📁 Folder Structure
+
+hypnoneuro-omop-etl/
+├── sql/
+│ └── transforms/
+│ ├── sql/
+│ │ ├── condition_occurrence.sql
+│ │ ├── drug_exposure.sql
+│ │ ├── measurement.sql
+│ │ ├── observation.sql
+│ │ ├── person.sql
+│ │ └── visit_occurrence.sql
+│ └── README.md
+
+- All ETL scripts are stored inside `sql/transforms/sql/`
+- File names correspond to OMOP CDM tables
+- Scripts are written to extract from MIMIC-style schemas (e.g., `mimic_demo`)
