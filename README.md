@@ -17,11 +17,10 @@ This ETL pipeline:
 
 | OMOP Table            | Source Table (MIMIC-III)       | ETL Script                                           |
 |-----------------------|---------------------------------|------------------------------------------------------|
-| PERSON                | PATIENTS                        | `/sql/transforms/sql/person.sql`                    |
-| CONDITION_OCCURRENCE  | DIAGNOSES_ICD, ADMISSIONS       | `/sql/transforms/sql/condition_occurrence.sql`      |
-| VISIT_OCCURRENCE      | ADMISSIONS                      | `/sql/transforms/sql/visit_occurrence.sql`          |
-| OBSERVATION           | NOTEEVENTS                      | `/sql/transforms/sql/observation.sql`               |
-
+| PERSON                | PATIENTS                        | /sql/transforms/sql/person.sql                      |
+| CONDITION_OCCURRENCE  | DIAGNOSES_ICD, ADMISSIONS       | /sql/transforms/sql/condition_occurrence.sql        |
+| VISIT_OCCURRENCE      | ADMISSIONS                      | /sql/transforms/sql/visit_occurrence.sql            |
+| OBSERVATION           | NOTEEVENTS                      | /sql/transforms/sql/observation.sql                 |
 
 ---
 
