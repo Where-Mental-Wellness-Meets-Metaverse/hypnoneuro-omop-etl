@@ -1,0 +1,5 @@
+## 🙏 Acknowledgments
+
+- This project uses publicly available clinical data from the [MIMIC-III](https://physionet.org/content/mimiciii/) database, created by the MIT Laboratory for Computational Physiology.
+- Big thanks to the Observational Health Data Sciences and Informatics (OHDSI) community for developing the OMOP Common Data Model.
+- Developed as part of the HypnoNeuro platform’s R&D for decentralized, privacy-first mental health research and care.
