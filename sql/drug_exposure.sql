@@ -6,3 +6,4 @@ SELECT
 FROM `valued-aleph-459311-m0.mimic_demo.prescriptions`
 WHERE drug IS NOT NULL
 LIMIT 1000;
+
