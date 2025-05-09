@@ -1,2 +1,31 @@
-# hypnoneuro-omop-etl
-ETL pipeline to convert MIMIC-III data into OMOP format for HypnoNeuro
+# HypnoNeuro OMOP ETL
+
+This repository contains SQL scripts and documentation to transform MIMIC-III clinical data into the **OMOP Common Data Model (CDM)** format, in support of the **HypnoNeuro** decentralized mental health platform.
+
+---
+
+## 🔍 Purpose
+
+This ETL pipeline:
+- Extracts structured data from the MIMIC-III database
+- Transforms relevant patient data into OMOP-compliant tables
+- Supports clinical modeling and standardization for research and interoperability
+
+---
+
+## 📦 Included Transformations
+
+| OMOP Table             | Source Table (MIMIC-III) | ETL Script              |
+|------------------------|---------------------------|--------------------------|
+| `PERSON`               | `PATIENTS`                | `/sql/person.sql`        |
+| `CONDITION_OCCURRENCE` | `DIAGNOSES_ICD`, `ADMISSIONS` | `/sql/condition_occurrence.sql` |
+| `VISIT_OCCURRENCE`     | `ADMISSIONS`              | `/sql/visit_occurrence.sql` |
+| `OBSERVATION`          | TBD                       | `/sql/observation.sql`   |
+
+---
+
+## 🛠️ How to Use
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/hypnoneuro-omop-etl.git
